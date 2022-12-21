@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     margin-top:20px;
+    margin-bottom: 10px;
     min-height: 60px;
 }
 .search-selected-container{
@@ -24,29 +25,32 @@
     justify-content: space-between;
 }
 .search-product {
-    width: 50%;
+    width: 70%;
     margin-left: 18px;
 }
 .search-product input{
     width:75%;
-    height: 40px;
+    height: 30px;
     padding: 0 10px;   
     border-radius: 0;
-    border: 1px solid #ddd;
+    border: 1px solid #EDF1FF;
     border-right: 0;
 }
 .search-product button{
-    height: 40px;
+    height: 30px;
     font-size:18px;
     border-radius: 0;
-    border: 1px solid #ddd;
+    border: 1px solid #EDF1FF;
     margin-left: -3px;
     color: #d19c97;
     background-color: #fff;
 
 }
+.common-btn{
+ margin-right: 20px;
+}
 .banner-wrapper{
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #EDF1FF;
 }
 
 .category-list-header h4{
@@ -60,6 +64,10 @@
 }
 .category-list-header h4 span{
     margin-left: 132px;
+}
+
+.category-wrapper{
+    margin-right: 35px;
 }
 .category-wrapper ul{
     margin:0;
@@ -79,7 +87,7 @@
 
 .menu-wrapper ul li{
     min-width: 46px;
-    padding: 10px 10px;
+    padding: 15px 10px;
     }
 .menu-wrapper ul li a:hover{
     color:#d19c97 ;
@@ -96,8 +104,8 @@
 .dropdown-head:hover ul.dropdown{
     display: block;
 }
-.menu-left{
-    margin-left:10px;
+.menu-left ul li a{
+   color:#000;
 }
 
 
@@ -143,12 +151,16 @@
 }
 
 .featured-items {margin: 20px 25px 20px 0;  border: 1px solid #ddd;}
+
+.featured-section{
+   padding-top: 60px; 
+}
  .featured-section .wid-25:last-child .featured-items{
     margin-right:0;
 }
 
 .icon-text-wrap{
-    padding:30px;
+    padding:24px;
     display: flex;
 }
 .icon-text-wrap i {
@@ -209,6 +221,10 @@
     margin-top: -1px;
     background: #1C1C1C;
 }
+
+.offer{
+    padding-top: 60px;
+}
 .offer-banner{
     position:relative;
     background-color: #EDF1FF !important;
@@ -225,7 +241,7 @@
 }
 .offer-text{
     text-align: right;
-    padding: 50px;
+    padding: 30px;
 }
 .offer-text h5{
     color: #D19C97;
@@ -294,6 +310,7 @@
 .card-footer a{
     color: #D19C97;
     text-decoration:none;
+    font-size:14px;
 }
 .card-footer a i{
     margin-right: 5px;
@@ -309,6 +326,7 @@
 }
 .vendor-list-item img{
     border:1px solid #EDF1FF;
+    width:100%;
 }
 .footer-wrapper{
     width:100%;
@@ -320,7 +338,7 @@
 .footer-wrapper h1{
     font-size: 45px;
     font-weight: 600;
-    font-size: 50px;
+ 
 }
 .footer-text-title{    
     color: #D19C97;    
